@@ -1,0 +1,14 @@
+{
+    "name": "Refactor.Unity.Extensions",
+    "rootNamespace": "Refactor.Unity.Extensions",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
