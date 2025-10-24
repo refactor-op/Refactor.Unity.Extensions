@@ -1,0 +1,14 @@
+{
+  "name": "cn.refactor.unity-extensions",
+  "displayName": "Refactor Unity Extensions Package",
+  "version": "0.1.0",
+  "unity": "2021.3",
+  "license": "MIT",
+  "description": "一套全面的Unity开发扩展工具，包含数学计算、对象操作、坐标系转换和Tilemap处理等实用功能。",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/refactor-op/Refactor.Unity.Extensions.git"
+  },
+  "dependencies": {
+  }
+}
