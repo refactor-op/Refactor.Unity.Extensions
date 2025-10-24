@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Refactor.Unity.Extensions
+namespace Refactor.Unity.Extensions.Mathematics.Vector
 {
     public readonly ref struct Swizzler
     {

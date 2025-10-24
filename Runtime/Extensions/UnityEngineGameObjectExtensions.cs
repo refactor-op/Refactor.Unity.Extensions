@@ -76,7 +76,13 @@ namespace Refactor.Extensions
 
             return self;
         }
-
+        
+        public static T DontDestroyOnLoad<T>(this T selfObj) where T : UnityEngine.Object
+        {
+            UnityEngine.Object.DontDestroyOnLoad(selfObj);
+            return selfObj;
+        }
+        
         #endregion
     }
 }
