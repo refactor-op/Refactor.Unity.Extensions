@@ -52,7 +52,7 @@ namespace Refactor.Unity.Extensions.Mathematic.Vector
         /// 3D旋转
         /// </summary>
         /// <param name="origin">原始向量</param>
-        /// <param name="angle">旋转角度（度）</param>
+        /// <param name="angle">旋转角度(度)</param>
         /// <param name="axis">旋转轴</param>
         /// <param name="pivot">旋转中心点</param>
         public static Vector3 Rotate3D(this Vector3 origin, float angle, Vector3 axis, Vector3 pivot = default)
@@ -63,7 +63,7 @@ namespace Refactor.Unity.Extensions.Mathematic.Vector
         }
 
         /// <summary>
-        /// 2D反射（关于直线）
+        /// 2D反射(关于直线)
         /// </summary>
         /// <param name="origin">原始向量</param>
         /// <param name="lineNormal">直线向量</param>

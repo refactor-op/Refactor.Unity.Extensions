@@ -9,15 +9,15 @@
 ---
 
 # Unity 扩展工具包
-一套全面的Unity开发扩展工具，包含数学计算、对象操作、坐标系转换和Tilemap处理等实用功能。 参考QFramework的链式调用拓展，达到又快又好的效果。
+一套全面的Unity开发扩展工具, 包含数学计算, 对象操作, 坐标系转换和Tilemap处理等实用功能. 参考QFramework的链式调用拓展, 达到又快又好的效果.
 
-_一时链式一时爽，一直链式一直爽（）_
+_一时链式一时爽,一直链式一直爽()_
 
 # 功能特性
 
 ## 🎯 核心功能
-- **数学计算**: 向量运算、线性变换、三角函数、组合数学
-- **对象操作**: GameObject、Component、Transform的链式操作
+- **数学计算**: 向量运算,线性变换,三角函数,组合数学
+- **对象操作**: GameObject,Component,Transform的链式操作
 - **坐标系转换**: 2D坐标系在不同原点间的灵活转换
 - **Tilemap处理**: 将Tilemap渲染为Texture2D
 - **实例化构建器**: 流畅的实例化参数配置
@@ -98,17 +98,17 @@ var worldPoint = screenPoint
 var texture = tilemap.ToTexture2d();
 ```
 # 📦 安装
-### 方法一：通过 Git URL 安装 (推荐)
+### 方法一:通过 Git URL 安装 (推荐)
 
 1. 打开 Unity Package Manager
 2. 点击左上角的 **+** 按钮
 3. 选择 **Add package from git URL**
-4. 输入以下 URL：https://github.com/refactor-op/Refactor.Unity.Extensions.git
+4. 输入以下 URL:https://github.com/refactor-op/Refactor.Unity.Extensions.git
 
 
-### 方法二：通过 manifest.json 安装
+### 方法二:通过 manifest.json 安装
 
-在项目的 `Packages/manifest.json` 文件中添加：
+在项目的 `Packages/manifest.json` 文件中添加:
 
 ```json
 {
@@ -121,4 +121,4 @@ var texture = tilemap.ToTexture2d();
 
 # 📄贡献
 
-欢迎 PR 和 Issues！
+欢迎 PR 和 Issues!
